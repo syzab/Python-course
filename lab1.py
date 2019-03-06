@@ -1,7 +1,3 @@
-import numpy as np
-
-
-
 # 1
 
 
@@ -36,12 +32,9 @@ def min_array(x):
         if inpa[i] < lmin :
             lmin = inpa[i]
             lind = i
-    print('min =;',lmin,'index =' ,lind)
+    print('min =',lmin,'index =' ,lind)
         
 inp = input("input numbers separated by ',': ")
-
-print(min_array(inp))
-
 
 
 # 4
