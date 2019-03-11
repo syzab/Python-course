@@ -71,7 +71,7 @@ min_array(inp)
 # 4
 print(10*'-','##4')
 
-chart_len = int(input("len of chart"))
+chart_len = float(input("len of chart"))
 
 x = linspace(0, chart_len, 10000)
 y = sin(x)*(1/(x/2))
